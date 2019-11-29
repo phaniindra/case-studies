@@ -1,6 +1,6 @@
 ---
 templateKey: case-study
-title: Lorem Ipsum
+title: Lorem Ipsum updated
 date: 2019-12-05T09:14:41.388Z
 ---
 Where does it come from?
