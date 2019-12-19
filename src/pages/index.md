@@ -55,7 +55,7 @@ about:
     technology capabilities and our industry knowledge to solve our customer’s
     business problems. Incede provides outcome-based AI solutions and offers
     end-to-end services to make businesses profitable.
-  title: About Us
+  title: 'About Us '
 description: >-
   It is a long established fact that a reader will be distracted by the readable
   content of a page when looking at its layout. The point of using Lorem Ipsum
