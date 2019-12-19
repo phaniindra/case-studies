@@ -43,11 +43,11 @@ title: test
 image: /img/home-jumbotron.jpg
 heading: What is Lorem Ipsum
 subheading: test
-about:
-  button: Explore Our Solutions
-  image: /img/apple-touch-icon.png
-  subTitle: Build an AI Roadmap for your business
-  title: We provide business outcome based AI solutions
+home:
+  button: 'button added '
+  image: /img/blog-index.jpg
+  subTitle: sub title
+  title: home title
 description: >-
   It is a long established fact that a reader will be distracted by the readable
   content of a page when looking at its layout. The point of using Lorem Ipsum
