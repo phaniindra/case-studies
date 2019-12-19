@@ -49,9 +49,13 @@ home:
   subTitle: sub title
   title: home title
 about:
-  button: about button
-  subTitle: sub title
-  title: 'about added '
+  button: Know More
+  subTitle: >-
+    We are a data analytics, strategy and consulting firm that leverages our AI
+    technology capabilities and our industry knowledge to solve our customer’s
+    business problems. Incede provides outcome-based AI solutions and offers
+    end-to-end services to make businesses profitable.
+  title: About Us
 description: >-
   It is a long established fact that a reader will be distracted by the readable
   content of a page when looking at its layout. The point of using Lorem Ipsum
