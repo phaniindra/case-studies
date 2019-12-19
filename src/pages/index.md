@@ -39,15 +39,15 @@ intro:
     was popularised in the 1960s with the release of Letraset sheets containing
     Lorem Ipsum passages, and more recently with desktop publishing software
     like Aldus PageMaker including versions of Lorem Ipsum
-title: test title added for about
+title: test
 image: /img/home-jumbotron.jpg
 heading: What is Lorem Ipsum
 subheading: test
 about:
-  button: button text
+  button: Explore Our Solutions
   image: /img/apple-touch-icon.png
-  subTitle: about sub title
-  title: about title
+  subTitle: Build an AI Roadmap for your business
+  title: We provide business outcome based AI solutions
 description: >-
   It is a long established fact that a reader will be distracted by the readable
   content of a page when looking at its layout. The point of using Lorem Ipsum
