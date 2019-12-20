@@ -56,6 +56,12 @@ about:
     business problems. Incede provides outcome-based AI solutions and offers
     end-to-end services to make businesses profitable.
   title: 'About Us '
+location:
+  address: '5201 Great America Parkway, Suite #320, Santa Clara, CA 95054'
+  email: 'info@locussolutions,com'
+  phone: 408-898-4606
+  subTitle: Corporate Headquaters
+  title: United States
 description: >-
   It is a long established fact that a reader will be distracted by the readable
   content of a page when looking at its layout. The point of using Lorem Ipsum
