@@ -4,6 +4,6 @@ title: About our values
 section:
   - description: asddassd
     image: /img/blog-index.jpg
-    title: asd
+    title: Leader ship
 ---
 
