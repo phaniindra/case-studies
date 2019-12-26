@@ -8,19 +8,19 @@ class CaseStudySearch extends React.Component {
         const { data } = this.props
         const { edges: posts } = data.allMarkdownRemark
         let caseStudies = [...posts];
-        if (window) {
-            var search = new URLSearchParams(window.location.search);
-            var query = search.get("query");
-            caseStudies = caseStudies.filter(x => {
-                if (query) {
-                    if (x.node.excerpt.toLowerCase().indexOf(query.toLowerCase()) > -1) {
-                        return true
-                    }
-                    return false
-                }
-                return true;
-            })
-        }
+        // if (window) {
+        //     var search = new URLSearchParams(window.location.search);
+        //     var query = search.get("query");
+        //     caseStudies = caseStudies.filter(x => {
+        //         if (query) {
+        //             if (x.node.excerpt.toLowerCase().indexOf(query.toLowerCase()) > -1) {
+        //                 return true
+        //             }
+        //             return false
+        //         }
+        //         return true;
+        //     })
+        // }
         return (
             <Layout>
                 <div className="columns is-multiline">
