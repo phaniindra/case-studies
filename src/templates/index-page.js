@@ -7,6 +7,7 @@ import Features from '../components/Features'
 // import BlogRoll from '../components/BlogRoll'
 // import CustomRoll from '../components/CustomRoll'
 import CaseStudyRoll from '../components/CaseStudyRoll'
+import Search from '../components/Search'
 
 export const IndexPageTemplate = ({
   image,
@@ -110,7 +111,10 @@ export const IndexPageTemplate = ({
                       Custom Posts
                     </h3>
                     <CustomRoll /> */}
-
+                    <div style={{ textAlign: "center" }}>
+                      <br />
+                      <Search />
+                    </div>
                     <h3 className="has-text-weight-semibold is-size-2">
                       Case Studies
                     </h3>
@@ -153,7 +157,7 @@ const IndexPage = ({ data }) => {
         // title={frontmatter.title}
         heading={frontmatter.heading}
         // subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
+        mainpitch={frontmatter.mainpitch || {}}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -183,10 +187,6 @@ export const pageQuery = graphql`
           }
         }
         heading
-        mainpitch {
-          title
-          description
-        }
         description
         intro {
           blurbs {
